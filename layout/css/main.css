@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box-header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 75%;
+    height: 85%;
+    border-radius: 12px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box>div{
+    width: 40%;
+    height: 90%;
+    margin: 0 4%;
+    background-color: white;
+    border-radius: 5px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login  input{
+    width: 320px;
+    height: 45px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.login  label{
+    display: inline-block;
+    width: 70px;
+    margin-top: 30px;
+}
+.login  input:last-of-type{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.sign-in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-in form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sign-in input{
+    width: 320px;
+    height: 45px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.sign-in  label{
+    display: inline-block;
+    width: 70px;
+    margin-top: 5px;
+}
+.sign-in input:last-of-type{
+    margin-top: 50px;
+}
+.sign-in select{
+    width: 320px;
+    height: 45px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.box p{
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
