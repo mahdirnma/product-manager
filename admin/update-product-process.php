@@ -6,4 +6,4 @@ $product->update(["title"=>$_POST["title"],
     "inventory"=>$_POST["inventory"],
     "category"=>$_POST["category"],
     "id"=>$_POST["id"]]);
-header("Location: products-panel");
+//header("Location: products-panel");
